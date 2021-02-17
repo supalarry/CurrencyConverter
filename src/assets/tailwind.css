@@ -2,4 +2,28 @@
 
 @tailwind components;
 
+@responsive {
+  .heading {
+    @apply text-green-ady;
+    @apply text-2xl;
+    @apply font-bold;
+  }
+
+  @screen sm {
+    .heading {
+      @apply text-4xl;
+    }
+  }
+
+  @screen md {
+    .heading {
+      @apply text-5xl;
+    }
+  }
+
+  .description {
+    @apply text-white-ady;
+  }
+}
+
 @tailwind utilities;
