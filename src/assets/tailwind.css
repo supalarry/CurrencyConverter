@@ -5,7 +5,7 @@
 @responsive {
   .heading {
     @apply text-green-ady;
-    @apply text-2xl;
+    @apply text-3xl;
     @apply font-bold;
   }
 
@@ -23,6 +23,56 @@
 
   .description {
     @apply text-white-ady;
+  }
+
+  .sort-dropdown {
+    @apply w-auto;
+    @apply h-56;
+    @apply mt-4;
+    @apply overflow-scroll;
+    @apply rounded-b-md;
+    @apply shadow-2xl;
+    @apply absolute;
+    @apply bg-white;
+    @apply z-10;
+  }
+
+  .sort-dropdown-option {
+      @apply cursor-pointer;
+      @apply block;
+      @apply py-4;
+      @apply px-8;
+      @apply text-base;
+      @apply leading-5;
+      @apply text-gray-700;
+      @apply border-gray-300;
+  }
+
+  .sort-dropdown-option:hover, .sort-dropdown-option:focus {
+      @apply bg-gray-100;
+      @apply text-gray-900;
+      @apply outline-none;
+  }
+
+  .settings-button-choice {
+    @apply rounded-lg;
+    @apply py-2;
+    @apply w-auto;
+    @apply cursor-pointer;
+    @apply text-3xl;
+    @apply text-center;
+  }
+
+  @screen sm {
+    .settings-button-choice {
+      @apply text-xl;
+    }
+  }
+
+  @screen md {
+    .settings-button-choice {
+      @apply text-3xl;
+    }
   }
 }
 
