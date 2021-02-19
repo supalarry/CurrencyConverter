@@ -1,34 +1,30 @@
-# currency-converter
+# Currency Converter
 
-## Project setup
+<img src="https://i.imgur.com/PtUwFJC.png" width="700">
+
+```
+The focus of this currency converter is to not only answer "How much is X Euros in USA Dollars?",
+but also minimalistic and stylish look for quick usage.
+```
+
+### Technologies used
+HTML / CSS
+
+Tailwind microframework for CSS
+
+Vue.js
+
+### Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 ```
 yarn build
 ```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
