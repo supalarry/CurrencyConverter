@@ -17,9 +17,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body, #app {
+html{
   width: 100%;
   height: 100%;
+}
+
+html {
+  @apply bg-blue-ady;
 }
 
 .noSelect {
