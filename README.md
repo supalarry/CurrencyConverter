@@ -2,9 +2,9 @@
 
 <img src="https://i.imgur.com/PtUwFJC.png" width="700">
 
+This app is for anyone who wonders "How much is X Euros in USA Dollars?"
 
-The focus of this currency converter is to not only answer "How much is X Euros in USA Dollars?", 
-but also minimalistic and stylish look for quick usage.
+Furthermore, it offers minimalistic design for quick usage.
 
 ### Technologies used
 HTML / CSS
