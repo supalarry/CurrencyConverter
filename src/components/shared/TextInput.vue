@@ -39,11 +39,11 @@ export default {
     },
     inputValueUpdated() {
       if (this.inputValue !== '') {
-        this.$emit('text-input-updated', this.inputValue.replace(/,/g, ''));
+        this.$emit('text-input-updated', this.inputValue.replace(/[^0-9.]/g, ''));
       }
     },
     addThousandSeperator(value) {
-      return value.replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
+      return value.replace(/(\d)(?=(\d{3})+\.)/g, '$1,').replace(/[^0-9.,]/g, '');
     },
   },
 };
