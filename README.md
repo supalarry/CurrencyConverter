@@ -7,11 +7,11 @@ This app is for anyone who wonders "How much is X Euros in USA Dollars?"
 Furthermore, it offers minimalistic design for quick usage.
 
 ### Technologies used
-HTML / CSS
+* HTML / CSS
 
-Tailwind microframework for CSS
+* Tailwind microframework for CSS
 
-Vue.js
+* Vue.js
 
 ### Project setup
 ```
