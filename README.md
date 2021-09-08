@@ -4,7 +4,7 @@
 
 This app is for anyone who wonders "How much is X Euros in USA Dollars?"
 
-Furthermore, it offers minimalistic design for quick usage.
+Furthermore, it offers minimalistic design for quick usage. 
 
 ### Technologies used
 * HTML / CSS
